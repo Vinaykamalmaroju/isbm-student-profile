@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b66">
+  <title>Student Profile | ISBM University</title>
+  <style>
+    :root{--navy:#123b66;--blue:#1d5d91;--gold:#d6ad54;--ink:#1c2b3a;--muted:#607184}
+    *{box-sizing:border-box}
+    body{margin:0;padding:28px 16px;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(145deg,#e8eff7,#f8fafc);color:var(--ink);min-height:100vh;display:flex;align-items:center;justify-content:center}
+    .card{width:100%;max-width:700px;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 18px 55px rgba(18,59,102,.14)}
+    header{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;text-align:center;padding:32px 22px 28px;border-bottom:4px solid var(--gold)}
+    .logo{width:88px;height:88px;border-radius:50%;background:#fff;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;padding:8px;border:3px solid var(--gold);color:var(--navy);font-weight:800;font-size:15px;overflow:hidden}
+    .logo img{width:100%;height:100%;object-fit:contain}
+    .university{font-size:15px;margin:0;opacity:.95}
+    h1{font-size:27px;margin:10px 0 5px}
+    .eyebrow{font-size:12px;letter-spacing:1.8px;text-transform:uppercase;color:#e7d5a6;margin-top:12px}
+    .course-pill{display:inline-block;margin-top:13px;border:1px solid #ffffff80;border-radius:999px;padding:7px 12px;font-size:13px}
+    main{padding:26px}
+    .notice{border:1px solid #dbe6f0;background:#f7fafc;color:#526579;border-radius:12px;padding:12px 14px;font-size:13px;line-height:1.5;margin-bottom:24px}
+    h2{font-size:12px;color:var(--blue);letter-spacing:1.4px;text-transform:uppercase;margin:0 0 12px}
+    .field{padding:15px 0;border-bottom:1px solid #e8edf2}
+    .field:last-child{border-bottom:0}
+    .label{color:var(--muted);font-size:12px;margin-bottom:6px}
+    .value{font-size:17px;font-weight:700;overflow-wrap:anywhere;line-height:1.45}
+    footer{text-align:center;padding:0 22px 24px;font-size:12px;color:#718196;line-height:1.5}
+    @media(min-width:600px){.fields{display:grid;grid-template-columns:1fr 1fr;column-gap:30px}.field:nth-last-child(-n+2){border-bottom:0}}
+  </style>
+</head>
+<body>
+  <article class="card">
+    <header>
+      <div class="logo">
+        <!-- Add the official logo file named college-logo.png beside index.html -->
+        <img src="college-logo.png" alt="ISBM University logo" onerror="this.style.display='none';this.parentElement.textContent='ISBM';">
+      </div>
+      <p class="university">ISBM University</p>
+      <h1>Maroju Vinay Kamal</h1>
+      <div class="eyebrow">Student Profile</div>
+      <div class="course-pill">Bachelor of Computer Applications (BCA)</div>
+    </header>
+    <main>
+      <div class="notice"><strong>Important:</strong> This page displays student details supplied by the student. It is not an official university verification or credential-validation page.</div>
+      <h2>Student Information</h2>
+      <div class="fields">
+        <div class="field"><div class="label">Full Name</div><div class="value">Maroju Vinay Kamal</div></div>
+        <div class="field"><div class="label">Enrolment Number</div><div class="value">2211A0157366</div></div>
+        <div class="field"><div class="label">University</div><div class="value">ISBM University</div></div>
+        <div class="field"><div class="label">Course</div><div class="value">Bachelor of Computer Applications (BCA)</div></div>
+      </div>
+    </main>
+    <footer>For official confirmation of enrolment, contact ISBM University directly.</footer>
+  </article>
+</body>
+</html>
